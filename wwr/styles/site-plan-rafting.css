@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #9CF7D0   ;
-  --secondary-color: #7DC7A7 ;
-  --accent1-color: #52F9B0;
-  --accent2-color: #287855;
+  --primary-color: #60E3F7  ;
+  --secondary-color: #4EB6C7 ;
+  --accent1-color: #ACEEF9;
+  --accent2-color: #2F6E78;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
@@ -22,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #60E3F7 ;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
