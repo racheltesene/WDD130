@@ -1,0 +1,67 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(0, 213, 255);}
+
+  header {
+    background-color:yellow;
+    text-align: left;}
+
+.home-title{
+    color: black;}
+
+h4{
+    color: black;}
+nav a:hover {
+    background-color: rgb(0, 213, 255);
+    color: black;}
+
+#background {
+    height: 725px;
+    background-color:rgb(40, 154, 225);}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;}
+
+
+main section {
+    text-align: center;}
+
+.button-box, .join{
+    background-color: white;  
+    color: black;
+    text-decoration: none;}
+
+.button-box:hover, .join:hover{
+    background-color: yellow; 
+    color: black; }
+
+.msg{
+    background-color: rgb(40, 154, 225);}
+.msg p{
+    color: black;}
+.msg h2{
+    color: black;}
+
+footer{
+    background-color: yellow;  
+    color: black;}
+
+footer a{color: black;}
+
+footer a:hover{color: teal;
+    text-decoration: none;}
+
+footer p {
+    font-size: 1.2em;}  
+footer p a:hover {
+    text-decoration: underline;}    
+
+
+.logo{width:80px}
+
