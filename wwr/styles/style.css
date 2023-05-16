@@ -23,7 +23,12 @@ nav a:hover {
 
 #background {
     height: 725px;
-    background-color:rgb(40, 154, 225);}
+    background-color:rgb(40, 154, 225);
+    }
+
+#background-img {
+    text-align: left;
+}
 nav a {
     text-align: center;
     color: black;
@@ -84,4 +89,9 @@ footer p a:hover {
 }
 #background {
     height: 725px;
+}
+
+.mountains{
+    margin: 100px 0;
+    text-align: left;
 }
