@@ -4,10 +4,14 @@ body {
     text-align: center;
     background-color:rgb(0, 213, 255);}
 
-  header {
+header {
     background-color:yellow;
     text-align: left;}
 
+#content{
+    margin: 0 auto;
+    max-width: 1600px
+}
 .home-title{
     color: black;}
 
@@ -36,7 +40,9 @@ main section {
 .button-box, .join{
     background-color: white;  
     color: black;
-    text-decoration: none;}
+    text-decoration: none;
+    text-align: center;
+    }
 
 .button-box:hover, .join:hover{
     background-color: yellow; 
@@ -72,4 +78,10 @@ footer p a:hover {
 .social{
     text-align: left;
     width: 100%;
+}
+#hero-img{
+    width: 100%;
+}
+#background {
+    height: 725px;
 }
