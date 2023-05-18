@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+:root{
+--heading-font:'Lobster Two', cursive;
+
+--paragraph-font: 'Sigmar', cursive;
+}
+
 body {
     max-width: 1600px;
     margin: 0 auto;
@@ -32,7 +41,10 @@ nav a:hover {
 nav a {
     text-align: center;
     color: black;
-    text-decoration: none;}
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 1em;
+}
 
 #hero-msg h1, #hero-msg h4 {
     width: 100%;
@@ -42,11 +54,11 @@ nav a {
 main section {
     text-align: center;}
 
-.button-box, .join{
-    background-color: white;  
+.button-box, .join{  
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
+    font-family: var(--paragraph-font);
     }
 
 .button-box:hover, .join:hover{
@@ -91,7 +103,18 @@ footer p a:hover {
     height: 725px;
 }
 
-.mountains{
-    margin: 100px 0;
+img.mountains{
+
     text-align: left;
 }
+
+p {
+    font-family: var(--paragraph-font);
+   
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    
+  }
+  
