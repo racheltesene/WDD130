@@ -10,7 +10,6 @@
 body {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
     background-color:rgb(0, 213, 255);}
 
 header {
@@ -103,9 +102,9 @@ footer p a:hover {
     height: 725px;
 }
 
-img.mountains{
-
-    text-align: left;
+.mountains{
+ text-align: left;
+ margin: 0 ;
 }
 
 p {
