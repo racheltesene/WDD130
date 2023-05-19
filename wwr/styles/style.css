@@ -25,10 +25,11 @@ header {
 .home-title{
     color: black;
     font-family: var(--heading-font);
-    font-size: 2em;}
-    h2 {
+    font-size: 2em;
+    margin-top: 10px;}
+h2 {
         margin: 0;
-    }
+}
 h4{
     color: black;}
 nav a:hover {
@@ -58,6 +59,9 @@ nav a {
 
 main section {
     text-align: center;}
+    main section img {
+        box-sizing: border-box;
+    }
 
 .button-box, .join{  
     color: black;
@@ -65,7 +69,11 @@ main section {
     text-align: center;
     font-family: var(--paragraph-font);
     font-size: 18px;
-    }
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color:#d9c2a3;
+}
 
 .button-box:hover, .join:hover{
     background-color: yellow; 
@@ -85,7 +93,8 @@ main section {
 
 footer{
     background-color: yellow;  
-    color: black;}
+    color: black;
+    margin-top: 200px;}
 
 footer a{color: black;
     padding: 25px 50px;}
@@ -129,8 +138,12 @@ footer p a:hover {
  text-align: left;
  margin: 0 ;
 }
+.card-img {
+    border: 10px solid #d9c2a3;}
 
-
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
 p {
     font-family: var(--paragraph-font);
    
