@@ -160,25 +160,27 @@
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+width: 100px; 
+height: 100px; 
+background-color: red; 
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+width: 100px; 
+height: 100px; 
+background-color: green; 
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+width: 100px; 
+height: 100px; 
+background-color: gold; 
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+width: 100px; 
+height: 100px; 
+background-color: blue; 
 } 
+
+
 
 
 /* Do not make any changes below here */
